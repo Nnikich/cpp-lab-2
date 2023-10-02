@@ -1,7 +1,7 @@
 #include <iostream>
 #include <math.h>
 using namespace std;
-double long dfact(double long n) {
+long double dfact(long double n) {
     if (n == 0) {
         return 1;
     }
